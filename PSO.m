@@ -18,11 +18,11 @@ Interpolation = 0.01;                   % 插值
 maxIterations = 100;                    % 最大迭代次数     
 selfFactor = 3;                         % 自我学习因子
 crowdFactor = 3;                        % 群体学习因子 
+InitialNum = 50;                        % 初始种群个数
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% 建议默认参数
-InitialNum = 50;                        % 初始种群个数
 d = 1;                                  % 空间维数
 weightFactor = 0.8;                     % 惯性权重
 vLower = -1;                            % 速度下限
