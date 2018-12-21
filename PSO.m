@@ -21,12 +21,12 @@ crowdFactor = 3;                        % 群体学习因子
 vLower = -1;                            % 速度下限
 vTop = 1;                               % 速度上限
 InitialNum = 50;                        % 初始种群个数
+weightFactor = 0.8;                     % 惯性权重
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% 建议默认参数
 d = 1;                                  % 空间维数
-weightFactor = 0.8;                     % 惯性权重
 xLimit = [xLower, xTop];                % 位置参数限制
 vLimit = [vLower, vTop];                % 设置速度限制
 figure(1);
