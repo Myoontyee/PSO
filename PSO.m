@@ -15,8 +15,6 @@ f= @(x)x.*sin(x)+x.*sin(2.*x);          % 待解目标函数
 xLower = 0;                             % 待解函数下限
 xTop = 30;                              % 待解函数上限
 Interpolation = 0.01;                   % 插值
-vLower = -1;                            % 速度下限
-vTop = 1;                               % 速度上限
 maxIterations = 100;                    % 最大迭代次数     
 selfFactor = 3;                         % 自我学习因子
 crowdFactor = 3;                        % 群体学习因子 
@@ -27,6 +25,8 @@ crowdFactor = 3;                        % 群体学习因子
 InitialNum = 50;                        % 初始种群个数
 d = 1;                                  % 空间维数
 weightFactor = 0.8;                     % 惯性权重
+vLower = -1;                            % 速度下限
+vTop = 1;                               % 速度上限
 xLimit = [xLower, xTop];                % 位置参数限制
 vLimit = [vLower, vTop];                % 设置速度限制
 figure(1);
