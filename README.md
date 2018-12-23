@@ -171,6 +171,7 @@ PSO.m
 ![最终状态位置](https://upload-images.jianshu.io/upload_images/15178919-cda5833b3b2f9ff3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
 # 参考
+Thanks to
 [1]杨维, 李歧强. 粒子群优化算法综述[J]. 中国工程科学, 2004, 6(5):87-94.  
 [2][粒子群优化](https://zh.wikipedia.org/wiki/%E7%B2%92%E5%AD%90%E7%BE%A4%E4%BC%98%E5%8C%96)  
 [3][粒子群算法的matlab实现（一）](https://blog.csdn.net/nightmare_dimple/article/details/74331679)
